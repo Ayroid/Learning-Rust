@@ -1,0 +1,8 @@
+[package]
+name = "image_to_ascii"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+image = "0.25.5" # This helps work with images
+clap = { version = "4.4", features = ["derive"]} # This helps with command line arguments
